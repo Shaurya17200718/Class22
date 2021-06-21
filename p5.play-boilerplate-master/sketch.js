@@ -16,7 +16,7 @@ function setup() {
   object = Bodies.rectangle(200,390,400,20, options);
   World.add(world,object);
   var opt={
-    restitution:2.0
+    restitution:1.0
   }
   ball=Bodies.circle(200,100,20,opt);
   World.add(world,ball);
